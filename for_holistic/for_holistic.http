@@ -1,0 +1,6 @@
+@for_holistic_HostAddress = http://localhost:5172
+
+GET {{for_holistic_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
