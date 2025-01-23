@@ -36,6 +36,8 @@ namespace for_holistic.Repository_s.CustomerrRepository
             _context.SaveChanges();
         }
 
+
+
         public void Delete(int id)
         {
             var res = _context.customerrs.FirstOrDefault(x=> x.CustomerrId == id);

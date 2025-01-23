@@ -21,6 +21,7 @@ namespace for_holistic.Controllers
             _Repo.AddAll(dto);
             return Ok(dto);
         }
+        
         [HttpGet("GetAll")]
         public IActionResult GetAll()
         {

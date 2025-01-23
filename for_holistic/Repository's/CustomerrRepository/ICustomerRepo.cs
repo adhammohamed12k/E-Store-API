@@ -6,6 +6,8 @@ namespace for_holistic.Repository_s.CustomerrRepository
     {
         public void AddAll(AddCostumerWithAll dto);
 
+       
+
         public List<AddCostumerWithAll> GetAll();
 
         public AddCostumerWithAll GetById(int id);

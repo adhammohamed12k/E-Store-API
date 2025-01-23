@@ -2,9 +2,9 @@
 
 namespace for_holistic.DTO_s
 {
-    public class ShoppingCartDTO
+    public class OnlyOrderDTO
     {
         [Required]
-        public int NumberOfItems { get; set; }
+        public int TotalPrice { get; set; }
     }
 }
